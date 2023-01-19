@@ -44,7 +44,7 @@ namespace Invoice.SDK.Rest
                 httpWebRequest.Method = "POST";
                 httpWebRequest.Timeout = 30000;
                 httpWebRequest.Accept = "*/*";
-                httpWebRequest.UserAgent = "curl/7.55.1";
+                httpWebRequest.UserAgent = "Invoice.CSharp";
                 httpWebRequest.KeepAlive = false;
                 httpWebRequest.ServicePoint.Expect100Continue = false;
 
